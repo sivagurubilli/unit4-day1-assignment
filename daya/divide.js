@@ -1,11 +1,11 @@
-var a ={task :1}
-var  b ={task : 2}
+var a ={a :0}
+var  b ={b : 0}
  function div1(){
  
-  console.log("a",a)
-  console.log("b",b)
+  console.log(a)
+  console.log(b)
   console.log("a/b")
-  return(a.task/b.task)
+  return(a.a/b.b)
 }
 
 module.exports = {div1,a,b};
